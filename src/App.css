@@ -1,0 +1,11 @@
+.ScrollLink {
+  font-size: 23px;
+}
+
+.ScrollLink:hover {
+  cursor: pointer;
+  color: gold;
+  border: 1px solid tomato;
+  padding: 1px 8px;
+  border-radius: 5px;
+}
