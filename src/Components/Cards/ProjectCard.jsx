@@ -25,7 +25,7 @@ const ProjectCard = () => {
             <CardMedia
               component="img"
               alt="project image"
-              height="180"
+              height="200"
               image={project.image}
               border={"1px solid black"}
               borderRadius={"10px"}

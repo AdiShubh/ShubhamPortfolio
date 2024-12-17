@@ -15,6 +15,7 @@ const EducationCard = ({ education }) => {
           src={education.img}
           alt="schoolImage"
           height={"70px"}
+          width={"70px"}
           style={{
             border: "1px solid black",
             borderRadius: "5px",
@@ -23,11 +24,18 @@ const EducationCard = ({ education }) => {
           }}
         />
         <Box marginLeft={"15px"}>
-          <Typography margin={"0"} fontSize={"25px"} lineHeight={"1"}>
+          <Typography
+            margin={"0"}
+            fontSize={"20px"}
+            lineHeight={"1"}
+            color={"#2C2C2C"}
+          >
             {education.school}
           </Typography>
-          <Typography fontSize={"18px"}>{education.degree}</Typography>
-          <Typography>{education.date}</Typography>
+          <Typography fontSize={"16px"} color={"#3F3F3F"}>
+            {education.degree}
+          </Typography>
+          <Typography color={"#3F3F3F"}>{education.date}</Typography>
         </Box>
       </Box>
       {/* <Box name="description">

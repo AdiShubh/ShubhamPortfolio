@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import image from "../../Images/IMG.png";
+import image from "../../Images/IMG.jpeg";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -17,6 +17,7 @@ const ExperienceCard = ({ experience }) => {
             src={experience.img}
             alt="companyImage"
             height={"70px"}
+            width={"70px"}
             style={{
               border: "1px solid black",
               borderRadius: "5px",
@@ -25,18 +26,22 @@ const ExperienceCard = ({ experience }) => {
             }}
           />
           <Box marginLeft={"15px"}>
-            <Typography margin={"0"} fontSize={"28px"}>
+            <Typography margin={"0"} fontSize={"20px"} color={"#2C2C2C"}>
               {experience.role}
             </Typography>
-            <Typography fontSize={"18px"}>{experience.company}</Typography>
-            <Typography>{experience.date}</Typography>
+            <Typography fontSize={"16px"} color={"#3F3F3F"}>
+              {experience.company}
+            </Typography>
+            <Typography color={"#757575"}>{experience.date}</Typography>
           </Box>
         </Box>
 
-        <Typography marginLeft={"20px"}>My Responsibilities :</Typography>
+        {/* <Typography marginLeft={"20px"} color={"#3F3F3F"}>
+          My Responsibilities :
+        </Typography> */}
 
         {experience.desc.map((point) => (
-          <ul>
+          <ul color="#3F3F3F">
             <li>{point}</li>
           </ul>
         ))}

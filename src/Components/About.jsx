@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import { Bio } from "../data/Constants";
-import image from "../Images/IMG.png";
+import image from "../Images/IMG.jpeg";
 
 const About = () => {
   return (
@@ -37,7 +37,7 @@ const About = () => {
           {Bio.name}
         </Typography>
         <Typography variant="h4" paddingLeft={"10px"} sx={{ mb: "6px" }}>
-          I am a <span style={{ color: "tomato" }}>full stack developer</span>
+          I am a <span style={{ color: "tomato" }}>React JS developer</span>
         </Typography>
         <Typography variant="h6" padding={"10px"} marginBottom={"10px"}>
           {Bio.description}
@@ -74,9 +74,10 @@ const About = () => {
           alt="hero"
           style={{
             position: "relative",
-            width: "70%",
+            width: "500px",
+            height: "700px",
             border: "3px solid tomato",
-            borderRadius: "50%",
+            borderRadius: "10%",
             maxHeight: "400px",
             objectfit: "cover",
             margin: "auto",
