@@ -11,6 +11,7 @@ const ExperienceCard = ({ experience }) => {
         name="container"
         padding={"10px 15px"}
         bgcolor={"white"}
+        key={experience.id}
       >
         <Box name="role" display={"flex"}>
           <Box marginLeft={"15px"}>

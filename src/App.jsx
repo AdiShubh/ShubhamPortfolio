@@ -5,6 +5,7 @@ import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
+import Notification from "./Components/Notification";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Router>
+        <Notification />
         <Navbar />
         <About />
         <Skills />
