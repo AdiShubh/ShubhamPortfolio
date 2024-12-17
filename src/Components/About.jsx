@@ -18,11 +18,11 @@ const About = () => {
     >
       <Box sx={{ width: "60%", height: "100%" }}>
         <Typography
-          variant="h3"
+          variant="p"
           paddingLeft={"10px"}
-          sx={{ fontWeight: "bold", mb: "10px" }}
+          sx={{ fontWeight: "bold", mb: "10px", fontSize: "25px" }}
         >
-          Hi, I am{" "}
+          Hi, I am,{" "}
         </Typography>
         <Typography
           color={"#FFD700"}

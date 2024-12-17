@@ -2,7 +2,7 @@ export const Bio = {
   name: "Shubham Chourasia",
 
   description:
-    "Motivated Front-End Developer with hands on experience in React.js and front-end development. Proficient in building user-friendly, responsive web applications and have a strong understanding of modern web technologies, including HTML, CSS, and JavaScript. With a strong commitment to  continuous improvement and staying updated with industry trends, I am eager to leverage my skills and experience to contribute to innovative projects and deliver impactful solutions.",
+    "Motivated Front-End Developer with hands on experience in React.js and front-end development. Proficient in building user-friendly, responsive web applications and have a strong understanding of modern web technologies, including HTML, CSS, and JavaScript. ",
 
   github: "https://github.com/",
   resume: "",
@@ -93,9 +93,9 @@ export const experiences = [
     company: "Nishar India, Raipur",
     date: "July 2023- Present",
     desc: [
-      "Participate in all phases of STLC and prepare customized test plans.",
-      "Writing Test cases based in the requirement documents.",
-      "Execute test cases and report bugs.Prepare test- reports",
+      "Developed user-facing features using React.js and other modern JavaScript libraries.",
+      "Translated designs and wireframes into high-quality code, ensuring responsiveness and compatibility across devices.",
+      "Implemented state management solutions such as Zustand & Context API to manage application state efficiently.",
     ],
   },
   {

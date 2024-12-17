@@ -11,18 +11,6 @@ const EducationCard = ({ education }) => {
       bgcolor={"white"}
     >
       <Box name="role" display={"flex"}>
-        <img
-          src={education.img}
-          alt="schoolImage"
-          height={"70px"}
-          width={"70px"}
-          style={{
-            border: "1px solid black",
-            borderRadius: "5px",
-            overflow: "hidden",
-            marginTop: "6px",
-          }}
-        />
         <Box marginLeft={"15px"}>
           <Typography
             margin={"0"}

@@ -13,18 +13,6 @@ const ExperienceCard = ({ experience }) => {
         bgcolor={"white"}
       >
         <Box name="role" display={"flex"}>
-          <img
-            src={experience.img}
-            alt="companyImage"
-            height={"70px"}
-            width={"70px"}
-            style={{
-              border: "1px solid black",
-              borderRadius: "5px",
-              overflow: "hidden",
-              marginTop: "6px",
-            }}
-          />
           <Box marginLeft={"15px"}>
             <Typography margin={"0"} fontSize={"20px"} color={"#2C2C2C"}>
               {experience.role}
