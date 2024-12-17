@@ -2,7 +2,7 @@ export const Bio = {
   name: "Shubham Chourasia",
 
   description:
-    "Motivated Front-End Developer with hands on experience in React.js and front-end development. Proficient in building user-friendly, responsive web applications and have a strong understanding of modern web technologies, including HTML, CSS, and JavaScript. ",
+    "Motivated Front-End Developer with hands on experience in React.js and front-end development. Proficient in building user-friendly, responsive web applications and have a strong understanding of modern web technologies, including React js, Typscript, Tailwind CSS etc. ",
 
   github: "https://github.com/",
   resume: "",

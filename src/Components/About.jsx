@@ -75,9 +75,9 @@ const About = () => {
           style={{
             position: "relative",
             width: "500px",
-            height: "700px",
+            height: "400px",
             border: "3px solid tomato",
-            borderRadius: "10%",
+            borderRadius: "49% 82% 93% 47% / 57% 65% 75% 81% ",
             maxHeight: "400px",
             objectfit: "cover",
             margin: "auto",
